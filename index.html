@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script type="text/javascript" src="JS/bootstrap.min.js"></script>
+    <title>Práctica 9</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <article>
+        <div class="container">
+            <h1>Mi Página con Bootstrap</h1>
+            <p>Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first,
+               o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario.
+            </p>
+        </div>
+    </article>
+    
+    <div class="container">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Paterno</th>
+                    <th scope="col">Materno</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Luis</td>
+                    <td>Cortes</td>
+                    <td>Hilerio</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Maria</td>
+                    <td>Cortes</td>
+                    <td>Hilerio</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Guadalupe</td>
+                    <td>Hilerio</td>
+                    <td>Angel</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card hover-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Compiladores</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Introducción a los compiladores</h6>
+                        <p class="card-text">Los compiladores son programas que traducen código fuente escrito en un lenguaje de alto nivel a un lenguaje máquina.</p>
+                        <a href="compiladores.html" class="card-link">Aprende más sobre compiladores</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card hover-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Contabilidad</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Introducción básica de contabilidad</h6>
+                        <p class="card-text">La contabilidad es la disciplina que se encarga de medir, analizar y comunicar la información financiera de una entidad (empresa, organización o individuo).</p>
+                        <a href="contabilidad.html" class="card-link">Conoce más sobre contabilidad</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card hover-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Base de Datos</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Introducción a bases de datos</h6>
+                        <p class="card-text">Una base de datos es un sistema organizado para almacenar, gestionar y recuperar información de manera eficiente.</p>
+                        <a href="base.html" class="card-link">Explora más sobre bases de datos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <footer>
+        <div class="container-fluid bg-dark text-light">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-warning">Ubicación</h5>
+                    <p>Tuxtla Gutierrez</p>
+                    <p>Sexagésima Quinta Legislatura</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <h5 class="text-warning">Contacto</h5>
+                    <p>luis.cortes07@unach.mx</p>
+                </div>
+            </div>
+        </div>
+    </footer>  
+</body>
+</html>

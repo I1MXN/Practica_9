@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: rgb(56, 55, 55);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+article {
+    background-color: rgb(199, 247, 247);
+    padding: 40px;
+    text-align: center;
+}
+
+article h2 {
+    color: #343a40;
+    font-size: 2.5rem;
+}
+
+article p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.card-text {
+    color: #495057;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    color: #ffc107;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .text-warning {
+    color: red !important;
+}
+
+.container-fluid {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.hover-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hover-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.img-galeria {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.img-galeria:hover {
+    transform: scale(1.05);
+}
+
+/* Centrar las imágenes vertical y horizontalmente */
+.row.align-items-center {
+    display: flex;
+    align-items: center;  /* Centra verticalmente */
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center; /* Centra horizontalmente */
+}
